@@ -1,0 +1,42 @@
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+img {
+    width: 100%;
+}
+
+.hero-img {
+    background-image: url(./images/scotland-1987599_1280.jpg);
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /* position: relative; */
+
+    height: 352px;
+}
+
+.hero-txt {
+    text-align: center;
+    color: whitesmoke;
+    position: absolute;
+    top: 180px;
+    width: 100%;
+    font-size: 4rem;
+}
+
+._2col {
+    margin: 120px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 50px;
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.info p {
+    font-size: 1.25em;
+}
